@@ -5,4 +5,4 @@ This document outlines a Python tool designed to analyze URLs for phishing or ma
 ```
 git clone https://github.com/gueverro/analyzer
 pip install requests
-python analyzer.py && clear
+python analyzer.py
