@@ -3,4 +3,5 @@ This document outlines a Python tool designed to analyze URLs for phishing or ma
 
 # run in termux
 git clone https://github.com/gueverro/analyzer
+pip install requests
 python analyzer.py
