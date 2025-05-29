@@ -104,7 +104,7 @@ def main():
     
     elif choice == 'repo':
         print(f"Please enter the specific GitHub repository link\n(e.g., https://github.com/username/repo-name/blob/master/file_name): ")
-        repo = input("   ╰─> ")
+        repo_url = input("   ╰─> ")
         analyze_github_repo(repo_url)
     
     else:
