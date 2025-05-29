@@ -11,17 +11,17 @@ RED = "\033[31m"
 WHITE = "\033[37m"
 
 # ASCII Banner
-BANNER = f"""
-{CYAN}                                                                               
-  @@@@@@  @@@  @@@  @@@@@@  @@@      @@@ @@@ @@@@@@@@ @@@@@@@@ @@@@@@@ 
- @@!  @@@ @@!@!@@@ @@!  @@@ @@!      @@! !@@      @@! @@!      @@!  @@@
- @!@!@!@! @!@@!!@! @!@!@!@! @!!       !@!@!     @!!   @!!!:!   @!@!!@! 
- {GREEN}!!:  !!! !!:  !!! !!:  !!! !!:        !!:    !!:     !!:      !!: :!! 
-  :   : : ::    :   :   : : : ::.: :   .:    :.::.: : : :: :::  :   : :
-                            {GREEN}Coded by:{RED}ICC
-{CYAN}
+BANNER = f"""                                                                              
+          {CYAN}░▒▓█▓▒░  ░▒▓██████▓▒    ░▒▓██████▓▒░  
+           ▒▓█▓▒  ░▒▓█▓▒░░▒▓█▓▒  ░▒▓█▓▒░░▒▓█▓▒░ 
+           ▒▓█▓▒ ░▒▓█▓▒░         ░▒▓█▓▒░        
+           ▒▓█▓▒ ░▒▓█▓▒░         ░▒▓█▓▒░        
+          {WHITE} ▒▓█▓▒ ░▒▓█▓▒░         ░▒▓█▓▒░        
+           ▒▓█▓▒  ░▒▓█▓▒░░▒▓█▓▒  ░▒▓█▓▒░░▒▓█▓▒░ 
+          ░▒▓█▓▒░  ░▒▓██████▓▒    ░▒▓██████▓▒░  
+             {GREEN}URL & REPOSITORY ANALYZER by{WHITE} - {RED}ICC
+{RESET}
 """
-
 # Patterns to avoid in code analysis
 SUSPICIOUS_PATTERNS = [
     r'import\s+(os|subprocess|socket|requests)',  # Suspicious imports
@@ -109,3 +109,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+          
