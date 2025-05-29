@@ -1,6 +1,9 @@
+import os
 import requests
 import re
 from urllib.parse import urlparse
+
+os.system('clear')
 
 # ANSI escape codes for colors
 GREEN = "\033[92m"
