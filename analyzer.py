@@ -22,7 +22,7 @@ BANNER = f"""
              {WHITE} ▒▓█▓▒ ░▒▓█▓▒░         ░▒▓█▓▒░        
               ▒▓█▓▒  ░▒▓█▓▒░░▒▓█▓▒  ░▒▓█▓▒░░▒▓█▓▒░ 
              ░▒▓█▓▒░  ░▒▓██████▓▒    ░▒▓██████▓▒░  
-               {GREEN}URL & REPOSITORY ANALYZER by{WHITE} - {RED}ICC
+              {GREEN}URL & REPOSITORY ANALYZER by{WHITE} - {RED}ICC
 {RESET}
 """
 # Patterns to avoid in code analysis
